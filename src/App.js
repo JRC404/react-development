@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
 import './App.css';
-import Person from './Person/Person';
 import Navbar from './Navbar/Navbar';
+import Person from './Person/Person';
+import Footer from './Footer/Footer';
 
 class App extends Component {
   render() {
@@ -10,6 +11,7 @@ class App extends Component {
         <h1>Hello, I am a React App</h1>
         <Navbar />
         <Person />
+        <Footer />
       </div>
     )
   }
